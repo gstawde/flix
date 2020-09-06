@@ -12,8 +12,9 @@ jobs:
     runs-on: macos-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Install Dependencies
-      run: pod install --repo-update
-    - name: Run Tests
-      run: xcodebuild clean test -project flix.xcodeproj -scheme flix -destination "platform=iOS Simulator,name=iPhone 11 Pro"
+    - uses: sersoft-gmbh/xcodebuild-action@v1
+      with:
+        workspace: flix.xcworkspace
+        scheme: flix
+        destination: platform=platform=iOS Simulator,name=iPhone 11 Pro
+        action: test
