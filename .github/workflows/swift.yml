@@ -17,5 +17,5 @@ jobs:
       with:
         workspace: flix.xcworkspace
         scheme: flix
-        destination: platform=platform=iOS Simulator,name=iPhone 11 Pro
+        destination: platform=iOS Simulator,name=iPhone 11 Pro
         action: test
