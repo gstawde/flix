@@ -13,7 +13,7 @@
 - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthrough GIF
-1[App Walkthrough](/flix2.gif)
+![App Walkthrough](/flix2.gif)
 
 ### Notes
 Describe any challenges encountered while building the app.
