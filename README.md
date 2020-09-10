@@ -13,13 +13,13 @@
 - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthrough GIF
-1[App Walkthrough]()
+1[App Walkthrough](/flix2.gif)
 
 ### Notes
 Describe any challenges encountered while building the app.
 
 Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
-
+---
 ![CI Status](https://github.com/gstawde/flix/workflows/Swift/badge.svg)
 ---
 
